@@ -97,15 +97,15 @@ form.addEventListener("submit", (e) => {
  return false;
 });
 
-rsvpNo.onclick = () => {
- // Get a reference to the user's document in the attendees collection
- const userDoc = firebase.firestore().collection('attendees').doc(firebase.auth().currentUser.uid);
+// rsvpNo.onclick = () => {
+//  // Get a reference to the user's document in the attendees collection
+//  const userDoc = firebase.firestore().collection('attendees').doc(firebase.auth().currentUser.uid);
 
- // If they RSVP'd no, save a document with attending: false
- userDoc.set({
-   attending: false
- }).catch(console.error)
-}
+//  // If they RSVP'd no, save a document with attending: false
+//  userDoc.set({
+//    attending: false
+//  }).catch(console.error)
+// }
 
 // Listen to guestbook updates
 function subscribeGuestbook(){
