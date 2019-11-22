@@ -1,3 +1,4 @@
-# firebase-gtk-web-start-sbzxnx
+# firebase-JS-web-start
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/firebase-gtk-web-start-sbzxnx)
+Hosted on Firebase...
+URL: https://calgary-u-of-c-dinos.firebaseapp.com/?96743
